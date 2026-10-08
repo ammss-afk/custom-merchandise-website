@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Custom accessories dan merchandise premium untuk organisasi, corporate, wedding, event, komunitas, dan brand. MOQ 100 pcs.">
+  <meta name="theme-color" content="#080807">
+  <title>NOIR ATELIER — Custom Accessories & Merchandise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-mark">N</div>
+    <span>NOIR ATELIER</span>
+  </div>
+
+  <div class="announcement">
+    <span>Custom Merchandise · MOQ 100 pcs</span>
+    <span>Starting from Rp35.000 / pcs</span>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#home" class="logo" aria-label="Noir Atelier Home">
+      <span class="logo-symbol">N</span>
+      <span class="logo-text">
+        <strong>NOIR ATELIER</strong>
+        <small>CUSTOM GOODS</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#custom">Custom</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-quote" href="#contact">Request Quote <span>↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">CUSTOM ACCESSORIES / BULK ORDER</p>
+        <h1>Made to carry<br><em>your identity.</em></h1>
+        <p class="hero-description">
+          Merchandise custom untuk organisasi, perusahaan, event, wedding,
+          komunitas, dan brand yang ingin meninggalkan kesan lebih kuat.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#collection" class="btn btn-primary">Explore Collection <span>↘</span></a>
+          <a href="#contact" class="under-link">Start a project <span>→</span></a>
+        </div>
+
+        <div class="hero-facts">
+          <div><b>MOQ</b><span>100 PCS</span></div>
+          <div><b>PRICE</b><span>FROM Rp35K*</span></div>
+          <div><b>CUSTOM</b><span>LOGO · COLOR · FINISHING</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay">
+        <div class="hero-product">
+          <img src="assets/keyholder-brown.png" alt="Custom leather key holder">
+          <div class="hero-product-tag">01 / SIGNATURE KEY HOLDER</div>
+        </div>
+        <div class="hero-side-text">CRAFTED FOR ORGANIZATIONS · EVENTS · BRANDS</div>
+        <div class="hero-scroll">SCROLL TO EXPLORE ↓</div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro section">
+      <div class="intro-label eyebrow">THE IDEA</div>
+      <div class="intro-title">
+        <h2>Small objects.<br><em>Strong impressions.</em></h2>
+      </div>
+      <div class="intro-copy">
+        <p>
+          Kami membantu Anda mengubah identitas visual menjadi benda yang
+          dapat digunakan, dibawa, dan diingat.
+        </p>
+        <p>
+          Dari key holder hingga corporate gift, setiap proyek dikembangkan
+          berdasarkan kebutuhan quantity, karakter brand, dan spesifikasi custom.
+        </p>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="collection section" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / COLLECTION</p>
+          <h2>Selected <em>goods.</em></h2>
+        </div>
+        <p class="section-note">
+          Harga yang ditampilkan merupakan harga awal.<br>
+          Final quotation mengikuti model & spesifikasi.
+        </p>
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="leather">Leather</button>
+        <button class="filter-btn" data-filter="key">Key & Card</button>
+        <button class="filter-btn" data-filter="gift">Corporate Gift</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- JS generates product cards here -->
+      </div>
+
+      <div class="catalog-footer">
+        <span id="productCount">0 PRODUCTS</span>
+        <button class="plain-btn" id="fullCatalogBtn">Request Full Catalogue <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- CUSTOM -->
+    <section class="custom-section" id="custom">
+      <div class="custom-content">
+        <p class="eyebrow">02 / MADE YOUR WAY</p>
+        <h2>Your logo.<br>Your color.<br><em>Your piece.</em></h2>
+        <p>
+          Anda tidak hanya memilih produk yang sudah tersedia. Material,
+          warna, logo, hardware, finishing, hingga packaging dapat
+          disesuaikan dengan kebutuhan proyek.
+        </p>
+
+        <div class="custom-list">
+          <div><span>01</span><strong>Branding</strong><small>Emboss · Engraving · Print</small></div>
+          <div><span>02</span><strong>Material</strong><small>Leather · Synthetic · Textile</small></div>
+          <div><span>03</span><strong>Hardware</strong><small>Ring · Buckle · Carabiner</small></div>
+          <div><span>04</span><strong>Packaging</strong><small>Box · Pouch · Gift Set</small></div>
+        </div>
+      </div>
+
+      <div class="custom-image">
+        <img src="assets/brand-reference.png" alt="Luxury custom accessory visual reference">
+        <span>VISUAL DIRECTION / LUXURY · BOLD · MINIMAL</span>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">WHY US</p>
+          <h2>Built for <em>bulk.</em></h2>
+        </div>
+      </div>
+
+      <div class="why-grid">
+        <article>
+          <span>01</span>
+          <h3>Custom Production</h3>
+          <p>Produk dapat dikembangkan mengikuti identitas dan kebutuhan proyek Anda.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Bulk Friendly</h3>
+          <p>MOQ mulai 100 pcs untuk kebutuhan organisasi, event, dan corporate.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Design Assistance</h3>
+          <p>Kami membantu menerjemahkan logo dan konsep menjadi spesifikasi produk.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>One Project, One Brief</h3>
+          <p>Spesifikasi, quantity, finishing, dan deadline dirangkum dalam satu quotation.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio section" id="portfolio">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 / APPLICATION</p>
+          <h2>Made for <em>your occasion.</em></h2>
+        </div>
+      </div>
+
+      <div class="occasion-grid">
+        <article class="occasion-card">
+          <div class="occasion-number">01</div>
+          <div>
+            <h3>Organization</h3>
+            <p>Merchandise kepengurusan, event, kaderisasi, dan hadiah internal.</p>
+          </div>
+        </article>
+        <article class="occasion-card">
+          <div class="occasion-number">02</div>
+          <div>
+            <h3>Corporate</h3>
+            <p>Corporate gift, onboarding kit, client gift, dan brand merchandise.</p>
+          </div>
+        </article>
+        <article class="occasion-card">
+          <div class="occasion-number">03</div>
+          <div>
+            <h3>Wedding</h3>
+            <p>Souvenir yang terasa personal dan tetap premium untuk para tamu.</p>
+          </div>
+        </article>
+        <article class="occasion-card">
+          <div class="occasion-number">04</div>
+          <div>
+            <h3>Event & Community</h3>
+            <p>Produk custom untuk event, komunitas, campaign, dan special occasion.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" id="process">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">04 / THE PROCESS</p>
+          <h2>From brief<br>to <em>finished piece.</em></h2>
+        </div>
+      </div>
+
+      <div class="process-grid">
+        <article><span>01</span><h3>Brief</h3><p>Kirim kebutuhan, quantity, referensi, logo, dan deadline.</p></article>
+        <article><span>02</span><h3>Design</h3><p>Kami bantu menentukan model, material, warna, dan metode branding.</p></article>
+        <article><span>03</span><h3>Quotation</h3><p>Anda menerima penawaran berdasarkan spesifikasi dan jumlah pesanan.</p></article>
+        <article><span>04</span><h3>Production</h3><p>Produksi berjalan setelah desain dan spesifikasi final disetujui.</p></article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">05 / FAQ</p>
+          <h2>Before you <em>order.</em></h2>
+        </div>
+      </div>
+
+      <div class="faq-list">
+        <details>
+          <summary>Berapa minimum pemesanan?<span>+</span></summary>
+          <p>Minimum order adalah 100 pcs. Harga per pcs bergantung pada model, material, custom, dan quantity.</p>
+        </details>
+        <details>
+          <summary>Apakah bisa menggunakan logo organisasi/perusahaan?<span>+</span></summary>
+          <p>Bisa. Metode branding dapat disesuaikan, misalnya emboss, engraving, printing, atau metode lain sesuai material.</p>
+        </details>
+        <details>
+          <summary>Apakah warna produk bisa custom?<span>+</span></summary>
+          <p>Bisa. Ketersediaan warna mengikuti material dan proses produksi. Tim kami akan mengonfirmasi opsi yang tersedia.</p>
+        </details>
+        <details>
+          <summary>Apakah bisa dibuatkan sample?<span>+</span></summary>
+          <p>Bisa untuk proyek tertentu. Sample dan biaya pengembangan akan dikonfirmasi berdasarkan kompleksitas desain.</p>
+        </details>
+        <details>
+          <summary>Bagaimana cara mendapatkan harga?<span>+</span></summary>
+          <p>Kirimkan produk yang diinginkan, jumlah, spesifikasi, logo, dan deadline. Kami akan menyusun quotation.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA / QUOTE -->
+    <section class="quote-section" id="contact">
+      <div class="quote-copy">
+        <p class="eyebrow">06 / START A PROJECT</p>
+        <h2>Have an idea?<br><em>Let's make it tangible.</em></h2>
+        <p>
+          Ceritakan kebutuhan Anda. Tidak perlu sudah memiliki spesifikasi
+          lengkap—kami dapat membantu menyusunnya.
+        </p>
+      </div>
+
+      <form class="quote-form" id="quoteForm">
+        <div class="form-group">
+          <label for="name">Nama / Organisasi *</label>
+          <input id="name" name="name" type="text" placeholder="Contoh: HIMA XXX / PT XXX" required>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="type">Kebutuhan *</label>
+            <select id="type" name="type" required>
+              <option value="">Pilih kategori</option>
+              <option>Organisasi</option>
+              <option>Corporate</option>
+              <option>Wedding</option>
+              <option>Event</option>
+              <option>Community</option>
+              <option>Brand / UMKM</option>
+              <option>Lainnya</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="qty">Jumlah (pcs) *</label>
+            <input id="qty" name="qty" type="number" min="100" placeholder="100" required>
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="product">Produk yang diinginkan</label>
+            <select id="product" name="product">
+              <option value="">Belum tahu / Konsultasi</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="deadline">Deadline</label>
+            <input id="deadline" name="deadline" type="date">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="brief">Project Brief</label>
+          <textarea id="brief" name="brief" rows="5" placeholder="Contoh: ingin key holder kulit warna cokelat dengan logo organisasi, 150 pcs, untuk acara bulan depan..."></textarea>
+        </div>
+
+        <button class="btn btn-light form-submit" type="submit">
+          Send Project Brief <span>↗</span>
+        </button>
+
+        <p class="form-note">Anda akan diarahkan ke WhatsApp untuk melanjutkan konsultasi.</p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo-symbol">N</div>
+        <div><strong>NOIR ATELIER</strong><small>CUSTOM GOODS</small></div>
+      </div>
+      <p>Custom accessories & merchandise for brands, organizations and occasions.</p>
+      <div class="footer-links">
+        <a href="#collection">Collection</a>
+        <a href="#custom">Custom</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 NOIR ATELIER</span>
+      <span>MOQ 100 PCS · INDONESIA</span>
+    </div>
+  </footer>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Tutup">×</button>
+      <div class="modal-image"><img id="modalImage" src="" alt=""></div>
+      <div class="modal-body">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div class="modal-specs" id="modalSpecs"></div>
+        <div class="modal-actions">
+          <a id="modalWhatsApp" class="btn btn-dark" href="#" target="_blank">Request this product <span>↗</span></a>
+          <button class="plain-btn" data-close-modal>Back to catalogue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="floating-wa" id="floatingWa" aria-label="Chat WhatsApp">WA</button>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
